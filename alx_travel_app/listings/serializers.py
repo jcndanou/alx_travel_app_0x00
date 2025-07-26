@@ -1,7 +1,7 @@
 # listings/serializers.py
 from rest_framework import serializers
-from .models import Listing, Booking, Review # Importez tous les modèles nécessaires
-from django.contrib.auth import get_user_model # Pour obtenir le modèle User configuré
+from alx_travel_app.listings.models import Listing, Booking, Review  # Modifié
+from django.contrib.auth import get_user_model  # Correct - pas besoin de modification
 
 User = get_user_model() # Obtenez le modèle User actif
 

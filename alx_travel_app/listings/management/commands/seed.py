@@ -2,9 +2,9 @@
 import random
 from datetime import date, timedelta
 from django.core.management.base import BaseCommand
-from django.contrib.auth import get_user_model # Pour obtenir le modèle User configuré
+from django.contrib.auth import get_user_model
 
-from listings.models import Listing, Booking, Review
+from alx_travel_app.listings.models import Listing, Booking, Review  # Modifié
 
 User = get_user_model() # Obtenez le modèle User actif
 

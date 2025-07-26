@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',  # Ajouté pour Django REST Framework
-    'listings',
+    'rest_framework',
+    'alx_travel_app.listings',
 ]
 
 MIDDLEWARE = [
